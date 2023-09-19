@@ -11,4 +11,12 @@ public enum Turler {
         this.typeCode = typeCode;
         this.typeName = typeName;
     }
+
+    public int getTypeCode() {
+        return typeCode;
+    }
+
+    public String getTypeName() {
+        return typeName;
+    }
 }

@@ -64,19 +64,19 @@ public class LibraryRunner {
             bookType = scan.nextLine();
             switch (bookType) {
                 case "1":
-                    bookType = Turler.ROMAN.name();
+                    bookType = Turler.ROMAN.getTypeName();
                     break;
                 case "2":
-                    bookType = Turler.HIKAYE.name();
+                    bookType = Turler.HIKAYE.getTypeName();
                     break;
                 case "3":
-                    bookType = Turler.BILISIM.name();
+                    bookType = Turler.BILISIM.getTypeName();
                     break;
                 case "4":
-                    bookType = Turler.EDEBIYAT.name();
+                    bookType = Turler.EDEBIYAT.getTypeName();
                     break;
                 case "5":
-                    bookType = Turler.DINI.name();
+                    bookType = Turler.DINI.getTypeName();
                     break;
                 default:
 
