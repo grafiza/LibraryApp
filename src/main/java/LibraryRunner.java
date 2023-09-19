@@ -84,7 +84,7 @@ public class LibraryRunner {
             System.out.println("Lütfen Kitap Yayınevini Giriniz");
             publisherName = scan.nextLine();
             BookService.addBook(bookName, authorName, bookType, publisherName);
-            System.out.println("Yeni kitap eklemek ister misiniz (Çıkış için 0)");
+            System.out.println("Yeni kitap eklemek ister misiniz (E/H)");
             secim = scan.nextLine();
         } while (secim.equals("E"));
         BookService.printBooks();
